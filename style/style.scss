@@ -104,10 +104,13 @@ section {
 
 .btn-white {
     background-color: white;
-    padding: 0.5rem 4rem;
     font-size: 1rem;
     font-weight: 300;
     border: 0;
+    a {
+        display: block;
+        padding: 0.5rem 4rem;
+    }
     a:visited {
         color: black;
     }
@@ -116,10 +119,13 @@ section {
 .btn-black {
     background-color: black;
     color: white;
-    padding: 0.5rem 4rem;
     font-size: 1rem;
     font-weight: 300;
     border: 0;
+    a {
+        display: block;
+        padding: 0.5rem 4rem;
+    }
     a:visited {
         color: white;
     }

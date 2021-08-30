@@ -129,10 +129,14 @@ section {
 
 .btn-white {
   background-color: white;
-  padding: 0.5rem 4rem;
   font-size: 1rem;
   font-weight: 300;
   border: 0;
+}
+
+.btn-white a {
+  display: block;
+  padding: 0.5rem 4rem;
 }
 
 .btn-white a:visited {
@@ -142,10 +146,14 @@ section {
 .btn-black {
   background-color: black;
   color: white;
-  padding: 0.5rem 4rem;
   font-size: 1rem;
   font-weight: 300;
   border: 0;
+}
+
+.btn-black a {
+  display: block;
+  padding: 0.5rem 4rem;
 }
 
 .btn-black a:visited {
