@@ -666,12 +666,13 @@ footer .footer-text {
     height: 100vh;
   }
   .home-container .parallax-container .bg1 p {
-    left: 7.5vw;
-    font-size: 2.5rem;
+    left: 10vw;
+    font-size: xx-large;
+    top: 67%;
   }
   .home-container .parallax-container .bg1 button {
-    left: 7.5vw;
-    top: 70%;
+    left: 10vw;
+    top: 90%;
   }
   .home-container .parallax-container .bg2-container {
     padding-top: 15vw;
