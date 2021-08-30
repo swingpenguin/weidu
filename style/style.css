@@ -10,10 +10,6 @@
   text-decoration: none;
 }
 
-* a:visited {
-  color: inherit;
-}
-
 * ul {
   list-style: none;
 }
@@ -90,7 +86,7 @@ section {
 }
 
 .text-container {
-  width: 75%;
+  width: 85%;
   margin: 0 auto;
   padding-bottom: 10vh;
 }
@@ -145,6 +141,10 @@ section {
   transition: 0.5s ease-out;
 }
 
+.btn-white a:visited {
+  color: inherit;
+}
+
 .btn-black {
   background-color: black;
   color: white;
@@ -152,6 +152,10 @@ section {
   font-size: 1rem;
   font-weight: 300;
   border: 0;
+}
+
+.btn-black a:visited {
+  color: inherit;
 }
 
 .btn-black:hover {
@@ -181,9 +185,9 @@ section {
   z-index: 100;
   position: absolute;
   left: 8.5%;
-  top: 35%;
+  top: 40%;
   color: white;
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 
 .home-container .parallax-container .bg1 button {
@@ -604,10 +608,10 @@ footer .footer-text {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    background-color: rgba(79, 79, 79, 0.5);
+    background-color: rgba(79, 79, 79, 0.7);
     opacity: 0;
-    -webkit-transition: 0.5s ease-out;
-    transition: 0.5s ease-out;
+    -webkit-transition: 0.25s ease-in;
+    transition: 0.25s ease-in;
   }
   nav .nav-container ul li {
     width: 100%;
@@ -629,9 +633,6 @@ footer .footer-text {
     padding-right: 7.5%;
     display: block;
   }
-}
-
-@media screen and (max-width: 480px) {
   main {
     margin-top: 20vh;
   }
@@ -644,7 +645,7 @@ footer .footer-text {
   }
   .text-container .small-title {
     padding-top: 5vw;
-    font-size: x-large;
+    font-size: larger;
   }
   .text-container .small-title-eng {
     padding-top: 5px;
@@ -664,7 +665,7 @@ footer .footer-text {
   }
   .home-container .parallax-container .bg1 button {
     left: 7.5vw;
-    top: 60%;
+    top: 70%;
   }
   .home-container .parallax-container .bg2-container {
     padding-top: 15vw;
@@ -731,11 +732,11 @@ footer .footer-text {
     padding-bottom: 0;
     -ms-grid-columns: (7.5% 85%)[1] 7.5% minmax(0, 85%);
         grid-template-columns: repeat(1, 7.5% 85%) 7.5% minmax(0, 85%);
-    -ms-grid-rows: (7.5vw 60vw)[5] 7.5vw minmax(0, 60vw);
-        grid-template-rows: repeat(5, 7.5vw 60vw) 7.5vw minmax(0, 60vw);
+    -ms-grid-rows: (7.5vw 72.25vw)[5] 7.5vw minmax(0, 72.25vw);
+        grid-template-rows: repeat(5, 7.5vw 72.25vw) 7.5vw minmax(0, 72.25vw);
   }
   .service-display .img-container img {
-    height: 60vw;
+    height: 72.25vw;
   }
   .service-display div:nth-of-type(1) {
     -ms-grid-column: 2;
@@ -816,6 +817,7 @@ footer .footer-text {
     text-align: left;
     width: 100%;
     padding-bottom: 10vh;
+    text-align: center;
   }
   .contact-container .contact-right {
     width: 100%;
@@ -833,7 +835,7 @@ footer .footer-text {
   }
   footer .footer-banner p:nth-of-type(1) {
     font-weight: 500;
-    font-size: x-large;
+    font-size: larger;
   }
   footer .footer-banner p:nth-of-type(2) {
     font-weight: 100;
@@ -844,10 +846,10 @@ footer .footer-text {
   }
   @supports not (aspect-ratio: 1) {
     .bg2 {
-      height: 26vw;
+      height: 50vw;
     }
     .work-display .img-container img {
-      height: 85vw;
+      height: 72.25vw;
     }
   }
 }
