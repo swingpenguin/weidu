@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <title>Weidu | 关于我们</title>
 </head>
 
@@ -16,62 +18,51 @@
 
     <nav>
         <div class="nav-container">
-            <div class="logo">
-                <img src="./public/images/logo.png" /> 维度
-            </div>
-            <ul>
+            <div class="logo">WEIDU</div>
+            <ul id="nav-ul" class="">
                 <li><a href="../index.html">主页</a></li>
-                <li><a href="./about.html">关于我们</a></li>
-                <li><a href="./services.html">服务项目</a></li>
-                <li><a href="./work.html">案例展示</a></li>
-                <li><a href="./contact.html">联系我们</a></li>
+                <li><a href="about.html">关于我们</a></li>
+                <li><a href="services.html">服务项目</a></li>
+                <li><a href="work.html">案例展示</a></li>
+                <li><a href="contact.html">联系我们</a></li>
             </ul>
+            <i class="bi bi-list hamburger" id="toggle-icon" onclick="toggleNavList()"></i>
         </div>
     </nav>
 
     <main>
-        <div class="title">
-            关于维度 | About Us
-        </div>
         <div class="text-container">
-            <p class="plain-text">山西维度智装科技有限公司，自成立伊始便专注于智慧装饰的全周期过程研究，积累了大量的装饰工程与洁净工程等项目建设和运营管理的经验。以智慧装饰为中心，为客户提供最可靠的工程建设咨询、设计、项目实施管理、验收认证以及维护维保等服务。</p>
+            <div class="title">关于维度 | About Us</div>
+            <p class="plain-text">山西维度智装科技有限公司，自成立伊始便专注于智慧装饰的全周期过程研究，积累了大量的装饰工程与洁净工程等项目建设和运营管理的经验。<br/>以智慧装饰为中心，为客户提供最可靠的工程建设咨询、设计、项目实施管理、验收认证以及维护维保等服务。</p>
         </div>
 
-        <div class="parallax-window" data-parallax="scroll" data-image-src="../public/images/home/bg1.jpg"></div>
+        <div class="parallax-window" data-parallax="scroll" data-image-src="../public/images/about/bg1.jpg"></div>
 
-        <div class="about-section-container">
-            <div class="small-title">维度精神</div>
-            <div class="subtitle">Our Concept</div>
-            <div class="text-container">
-                <p class="plain-text">山西维度智装科技有限公司，自成立伊始便专注于智慧装饰的全周期过程研究，积累了大量的装饰工程与洁净工程等项目建设和运营管理的经验。以智慧装饰为中心，为客户提供最可靠的工程建设咨询、设计、项目实施管理、验收认证以及维护维保等服务。</p>
-            </div>
-        </div>
 
-        <div class="about-section-container">
+        <div class="text-container">
             <div class="small-title">维度文化</div>
-            <div class="subtitle">Our Culture</div>
-            <div class="text-container">
-                <p class="plain-text">山西维度智装科技有限公司，自成立伊始便专注于智慧装饰的全周期过程研究，积累了大量的装饰工程与洁净工程等项目建设和运营管理的经验。以智慧装饰为中心，为客户提供最可靠的工程建设咨询、设计、项目实施管理、验收认证以及维护维保等服务。</p>
-            </div>
+            <div class="small-title-eng">Our Culture</div>
+            <p class="plain-text">“从普通空间到个性化的生活环境，从满足空间的使用到空间艺术化设计的超越”<br/>这是“维度”很早意识到并开始实施的战略...维度从此致力于对个性化、多样性和系列化作品的追求和探索。
+                <br/>维度从未停下追求完美的脚步，以求寻找新的途径，开辟新的天地，诠释新的空间。</p>
         </div>
 
-        <div class="about-section-container">
+
+        <div class="text-container">
+            <div class="small-title">维度品质</div>
+            <div class="small-title-eng">Our Guarantee</div>
+            <p class="plain-text">公司多年来秉承“诚信治企”原则，把宽容温馨的亲和力和卓尔不凡的企业文化兼收并蓄，受到了业界及广大客户的信赖。 多次赢得中国建筑装饰协会和省市建筑装饰协会的至高荣誉奖项，是中国建筑装饰协会的优秀会员单位，成为国内及山西建筑装饰行业的知名品牌企业。
+                <br/> 结实“维度”，您将感受到的不仅仅是我们高超娴熟的技艺和运作的魄力，还有品味卓越的企业文化。社会各界已从不同角度给予了我们肯定的答案，我们将不负众望，再接再厉，为国内外客户打造更多的精品工程，持续提供优质的服务。
+            </p>
+        </div>
+
+        <div class="text-container">
             <div class="small-title">维度流程</div>
-            <div class="subtitle">Our Progress</div>
-            <div class="img-container">
+            <div class="small-title-eng">Our Progress</div>
+            <div class="progress-container">
                 <img src="../public/images/about/process1.png" alt="">
                 <img src="../public/images/about/process2.png" alt="">
             </div>
         </div>
-
-        <div class="about-section-container">
-            <div class="small-title">维度品质</div>
-            <div class="subtitle">Our Guarantee</div>
-            <div class="text-container">
-                <p class="plain-text">山西维度智装科技有限公司，自成立伊始便专注于智慧装饰的全周期过程研究，积累了大量的装饰工程与洁净工程等项目建设和运营管理的经验。以智慧装饰为中心，为客户提供最可靠的工程建设咨询、设计、项目实施管理、验收认证以及维护维保等服务。</p>
-            </div>
-        </div>
-
 
     </main>
 
@@ -87,9 +78,9 @@
 
         </div>
     </footer>
-    <script src="./app.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="../js/parallax.min.js"></script>
+    <script src="../js/app.js"></script>
 </body>
 
 </html>
