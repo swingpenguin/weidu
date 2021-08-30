@@ -141,7 +141,7 @@ section {
 }
 
 .btn-white a:visited {
-  color: inherit;
+  color: black;
 }
 
 .btn-black {
@@ -158,7 +158,7 @@ section {
 }
 
 .btn-black a:visited {
-  color: inherit;
+  color: white;
 }
 
 .btn-white:hover,
